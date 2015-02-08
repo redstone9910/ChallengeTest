@@ -13,6 +13,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [MobClick startWithAppkey:@"545a1779fd98c5c7fd003802" reportPolicy:BATCH   channelId:@""];
     return YES;
 }
 							

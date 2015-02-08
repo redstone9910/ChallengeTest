@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+#import "MobClick.h"
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;

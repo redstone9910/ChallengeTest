@@ -18,13 +18,31 @@
 		523641DA1A14D17900BBBC27 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 523641D81A14D17900BBBC27 /* Main_iPad.storyboard */; };
 		523641DD1A14D17900BBBC27 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 523641DC1A14D17900BBBC27 /* ViewController.m */; };
 		523641E01A14D17900BBBC27 /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 523641DF1A14D17900BBBC27 /* MyScene.m */; };
-		523641E21A14D17900BBBC27 /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 523641E11A14D17900BBBC27 /* Spaceship.png */; };
 		523641E41A14D17900BBBC27 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 523641E31A14D17900BBBC27 /* Images.xcassets */; };
 		523641EB1A14D17900BBBC27 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 523641EA1A14D17900BBBC27 /* XCTest.framework */; };
 		523641EC1A14D17900BBBC27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 523641C11A14D17900BBBC27 /* Foundation.framework */; };
 		523641ED1A14D17900BBBC27 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 523641C51A14D17900BBBC27 /* UIKit.framework */; };
 		523641F51A14D17900BBBC27 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 523641F31A14D17900BBBC27 /* InfoPlist.strings */; };
 		523641F71A14D17900BBBC27 /* ChallengeTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 523641F61A14D17900BBBC27 /* ChallengeTestTests.m */; };
+		52A439861A18C26500DD24C5 /* ChickenSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A439851A18C26500DD24C5 /* ChickenSprite.m */; };
+		52A51DE81A3C85BC00B5707E /* Chicken.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 52A51DE71A3C85BC00B5707E /* Chicken.atlas */; };
+		52A5450C1A23F6510065AF3D /* xiaoji01.png in Resources */ = {isa = PBXBuildFile; fileRef = 52A5450B1A23F6510065AF3D /* xiaoji01.png */; };
+		52A5450E1A23F6BD0065AF3D /* xiaoji05.png in Resources */ = {isa = PBXBuildFile; fileRef = 52A5450D1A23F6BD0065AF3D /* xiaoji05.png */; };
+		52A6E0751A20B8FC0051448C /* FrogSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A6E0741A20B8FC0051448C /* FrogSprite.m */; };
+		52A6E0781A20D2150051448C /* button1.png in Resources */ = {isa = PBXBuildFile; fileRef = 52A6E0761A20D2150051448C /* button1.png */; };
+		52A6E0791A20D2150051448C /* button2.png in Resources */ = {isa = PBXBuildFile; fileRef = 52A6E0771A20D2150051448C /* button2.png */; };
+		52A703A31A28A99D00C1CA12 /* libMobClickLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A703A01A28A99D00C1CA12 /* libMobClickLibrary.a */; };
+		52A703A51A28BF5000C1CA12 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A703A41A28BF5000C1CA12 /* libz.dylib */; };
+		52A7C86F1A235ED40001793D /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A7C86C1A235ED40001793D /* libWeChatSDK.a */; };
+		52A893C81A21ECE600456992 /* ScoreSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A893C71A21ECE600456992 /* ScoreSprite.m */; };
+		52A893CA1A22069300456992 /* Score.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 52A893C91A22069300456992 /* Score.atlas */; };
+		52A8C99D1A219CF800E025A6 /* Feed02.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52A8C99A1A219CF800E025A6 /* Feed02.mp3 */; };
+		52A8C99E1A219CF800E025A6 /* Fly151.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52A8C99B1A219CF800E025A6 /* Fly151.mp3 */; };
+		52A8C99F1A219CF800E025A6 /* Land211.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52A8C99C1A219CF800E025A6 /* Land211.mp3 */; };
+		52A8C9A21A219E3E00E025A6 /* GameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A8C9A11A219E3E00E025A6 /* GameOverScene.m */; };
+		52A8C9AA1A21B11600E025A6 /* Frog.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 52A8C9A91A21B11600E025A6 /* Frog.atlas */; };
+		52FE7B771A177FC400E62A7B /* ChickenNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE7B761A177FC400E62A7B /* ChickenNode.m */; };
+		52FE7B7A1A17901300E62A7B /* ChickenBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 52FE7B791A17901300E62A7B /* ChickenBoard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,13 +73,40 @@
 		523641DC1A14D17900BBBC27 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		523641DE1A14D17900BBBC27 /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
 		523641DF1A14D17900BBBC27 /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
-		523641E11A14D17900BBBC27 /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		523641E31A14D17900BBBC27 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		523641E91A14D17900BBBC27 /* ChallengeTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChallengeTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		523641EA1A14D17900BBBC27 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		523641F21A14D17900BBBC27 /* ChallengeTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChallengeTestTests-Info.plist"; sourceTree = "<group>"; };
 		523641F41A14D17900BBBC27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		523641F61A14D17900BBBC27 /* ChallengeTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChallengeTestTests.m; sourceTree = "<group>"; };
+		52A439841A18C26500DD24C5 /* ChickenSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChickenSprite.h; sourceTree = "<group>"; };
+		52A439851A18C26500DD24C5 /* ChickenSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChickenSprite.m; sourceTree = "<group>"; };
+		52A51DE71A3C85BC00B5707E /* Chicken.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Chicken.atlas; sourceTree = "<group>"; };
+		52A5450B1A23F6510065AF3D /* xiaoji01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xiaoji01.png; sourceTree = "<group>"; };
+		52A5450D1A23F6BD0065AF3D /* xiaoji05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xiaoji05.png; sourceTree = "<group>"; };
+		52A6E0731A20B8FC0051448C /* FrogSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrogSprite.h; sourceTree = "<group>"; };
+		52A6E0741A20B8FC0051448C /* FrogSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrogSprite.m; sourceTree = "<group>"; };
+		52A6E0761A20D2150051448C /* button1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button1.png; sourceTree = "<group>"; };
+		52A6E0771A20D2150051448C /* button2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button2.png; sourceTree = "<group>"; };
+		52A703A01A28A99D00C1CA12 /* libMobClickLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMobClickLibrary.a; path = ../libMobClickLibrary.a; sourceTree = "<group>"; };
+		52A703A11A28A99D00C1CA12 /* MobClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MobClick.h; path = ../MobClick.h; sourceTree = "<group>"; };
+		52A703A41A28BF5000C1CA12 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		52A7C86C1A235ED40001793D /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		52A7C86D1A235ED40001793D /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		52A7C86E1A235ED40001793D /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		52A893C61A21ECE600456992 /* ScoreSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreSprite.h; sourceTree = "<group>"; };
+		52A893C71A21ECE600456992 /* ScoreSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreSprite.m; sourceTree = "<group>"; };
+		52A893C91A22069300456992 /* Score.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Score.atlas; sourceTree = "<group>"; };
+		52A8C99A1A219CF800E025A6 /* Feed02.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Feed02.mp3; sourceTree = "<group>"; };
+		52A8C99B1A219CF800E025A6 /* Fly151.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Fly151.mp3; sourceTree = "<group>"; };
+		52A8C99C1A219CF800E025A6 /* Land211.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Land211.mp3; sourceTree = "<group>"; };
+		52A8C9A01A219E3E00E025A6 /* GameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverScene.h; sourceTree = "<group>"; };
+		52A8C9A11A219E3E00E025A6 /* GameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverScene.m; sourceTree = "<group>"; };
+		52A8C9A91A21B11600E025A6 /* Frog.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Frog.atlas; sourceTree = "<group>"; };
+		52FE7B751A177FC400E62A7B /* ChickenNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChickenNode.h; sourceTree = "<group>"; };
+		52FE7B761A177FC400E62A7B /* ChickenNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ChickenNode.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		52FE7B781A17901300E62A7B /* ChickenBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChickenBoard.h; sourceTree = "<group>"; };
+		52FE7B791A17901300E62A7B /* ChickenBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChickenBoard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,10 +114,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52A703A51A28BF5000C1CA12 /* libz.dylib in Frameworks */,
 				523641C41A14D17900BBBC27 /* CoreGraphics.framework in Frameworks */,
 				523641C61A14D17900BBBC27 /* UIKit.framework in Frameworks */,
 				523641C81A14D17900BBBC27 /* SpriteKit.framework in Frameworks */,
+				52A703A31A28A99D00C1CA12 /* libMobClickLibrary.a in Frameworks */,
 				523641C21A14D17900BBBC27 /* Foundation.framework in Frameworks */,
+				52A7C86F1A235ED40001793D /* libWeChatSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,6 +159,7 @@
 		523641C01A14D17900BBBC27 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				52A703A41A28BF5000C1CA12 /* libz.dylib */,
 				523641C11A14D17900BBBC27 /* Foundation.framework */,
 				523641C31A14D17900BBBC27 /* CoreGraphics.framework */,
 				523641C51A14D17900BBBC27 /* UIKit.framework */,
@@ -123,17 +172,40 @@
 		523641C91A14D17900BBBC27 /* ChallengeTest */ = {
 			isa = PBXGroup;
 			children = (
+				52A703A01A28A99D00C1CA12 /* libMobClickLibrary.a */,
+				52A703A11A28A99D00C1CA12 /* MobClick.h */,
+				52A5450D1A23F6BD0065AF3D /* xiaoji05.png */,
+				52A5450B1A23F6510065AF3D /* xiaoji01.png */,
+				52A7C86B1A235ED40001793D /* SDKExport */,
+				52A7C86A1A235AE80001793D /* iPad */,
+				52A893C91A22069300456992 /* Score.atlas */,
+				52A8C9A91A21B11600E025A6 /* Frog.atlas */,
+				52A8C98F1A21970000E025A6 /* sounds */,
+				52A6E0761A20D2150051448C /* button1.png */,
+				52A6E0771A20D2150051448C /* button2.png */,
 				523641D21A14D17900BBBC27 /* AppDelegate.h */,
 				523641D31A14D17900BBBC27 /* AppDelegate.m */,
 				523641D51A14D17900BBBC27 /* Main_iPhone.storyboard */,
 				523641D81A14D17900BBBC27 /* Main_iPad.storyboard */,
 				523641DB1A14D17900BBBC27 /* ViewController.h */,
 				523641DC1A14D17900BBBC27 /* ViewController.m */,
+				52A8C9A01A219E3E00E025A6 /* GameOverScene.h */,
+				52A8C9A11A219E3E00E025A6 /* GameOverScene.m */,
 				523641DE1A14D17900BBBC27 /* MyScene.h */,
 				523641DF1A14D17900BBBC27 /* MyScene.m */,
-				523641E11A14D17900BBBC27 /* Spaceship.png */,
+				52FE7B751A177FC400E62A7B /* ChickenNode.h */,
+				52FE7B761A177FC400E62A7B /* ChickenNode.m */,
+				52FE7B781A17901300E62A7B /* ChickenBoard.h */,
+				52FE7B791A17901300E62A7B /* ChickenBoard.m */,
 				523641E31A14D17900BBBC27 /* Images.xcassets */,
+				52A51DE71A3C85BC00B5707E /* Chicken.atlas */,
 				523641CA1A14D17900BBBC27 /* Supporting Files */,
+				52A893C61A21ECE600456992 /* ScoreSprite.h */,
+				52A893C71A21ECE600456992 /* ScoreSprite.m */,
+				52A439841A18C26500DD24C5 /* ChickenSprite.h */,
+				52A439851A18C26500DD24C5 /* ChickenSprite.m */,
+				52A6E0731A20B8FC0051448C /* FrogSprite.h */,
+				52A6E0741A20B8FC0051448C /* FrogSprite.m */,
 			);
 			path = ChallengeTest;
 			sourceTree = "<group>";
@@ -165,6 +237,33 @@
 				523641F31A14D17900BBBC27 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52A7C86A1A235AE80001793D /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		52A7C86B1A235ED40001793D /* SDKExport */ = {
+			isa = PBXGroup;
+			children = (
+				52A7C86C1A235ED40001793D /* libWeChatSDK.a */,
+				52A7C86D1A235ED40001793D /* WXApi.h */,
+				52A7C86E1A235ED40001793D /* WXApiObject.h */,
+			);
+			path = SDKExport;
+			sourceTree = "<group>";
+		};
+		52A8C98F1A21970000E025A6 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				52A8C99A1A219CF800E025A6 /* Feed02.mp3 */,
+				52A8C99B1A219CF800E025A6 /* Fly151.mp3 */,
+				52A8C99C1A219CF800E025A6 /* Land211.mp3 */,
+			);
+			path = sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,9 +310,12 @@
 		523641B61A14D17900BBBC27 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = YinYanhui;
 				TargetAttributes = {
+					523641BD1A14D17900BBBC27 = {
+						DevelopmentTeam = P9E9N47422;
+					};
 					523641E81A14D17900BBBC27 = {
 						TestTargetID = 523641BD1A14D17900BBBC27;
 					};
@@ -243,10 +345,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				523641E21A14D17900BBBC27 /* Spaceship.png in Resources */,
+				52A8C99D1A219CF800E025A6 /* Feed02.mp3 in Resources */,
 				523641E41A14D17900BBBC27 /* Images.xcassets in Resources */,
 				523641DA1A14D17900BBBC27 /* Main_iPad.storyboard in Resources */,
+				52A6E0781A20D2150051448C /* button1.png in Resources */,
+				52A51DE81A3C85BC00B5707E /* Chicken.atlas in Resources */,
+				52A6E0791A20D2150051448C /* button2.png in Resources */,
+				52A8C9AA1A21B11600E025A6 /* Frog.atlas in Resources */,
+				52A8C99E1A219CF800E025A6 /* Fly151.mp3 in Resources */,
+				52A8C99F1A219CF800E025A6 /* Land211.mp3 in Resources */,
 				523641D71A14D17900BBBC27 /* Main_iPhone.storyboard in Resources */,
+				52A5450E1A23F6BD0065AF3D /* xiaoji05.png in Resources */,
+				52A5450C1A23F6510065AF3D /* xiaoji01.png in Resources */,
+				52A893CA1A22069300456992 /* Score.atlas in Resources */,
 				523641CE1A14D17900BBBC27 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,10 +377,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52FE7B771A177FC400E62A7B /* ChickenNode.m in Sources */,
+				52FE7B7A1A17901300E62A7B /* ChickenBoard.m in Sources */,
+				52A8C9A21A219E3E00E025A6 /* GameOverScene.m in Sources */,
 				523641E01A14D17900BBBC27 /* MyScene.m in Sources */,
 				523641DD1A14D17900BBBC27 /* ViewController.m in Sources */,
+				52A6E0751A20B8FC0051448C /* FrogSprite.m in Sources */,
+				52A439861A18C26500DD24C5 /* ChickenSprite.m in Sources */,
 				523641D41A14D17900BBBC27 /* AppDelegate.m in Sources */,
 				523641D01A14D17900BBBC27 /* main.m in Sources */,
+				52A893C81A21ECE600456992 /* ScoreSprite.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,7 +448,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -360,7 +476,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -371,7 +487,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -394,7 +509,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -406,11 +521,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ChallengeTest/ChallengeTest-Prefix.pch";
 				INFOPLIST_FILE = "ChallengeTest/ChallengeTest-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/yinyanhui/Desktop/workspace/ChallengeTest/ChallengeTest/SDKExport,
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = ChallengeTest;
+				PROVISIONING_PROFILE = "";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -420,11 +545,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ChallengeTest/ChallengeTest-Prefix.pch";
 				INFOPLIST_FILE = "ChallengeTest/ChallengeTest-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/yinyanhui/Desktop/workspace/ChallengeTest/ChallengeTest/SDKExport,
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = ChallengeTest;
+				PROVISIONING_PROFILE = "";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -432,7 +567,6 @@
 		523641FE1A14D17900BBBC27 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ChallengeTest.app/ChallengeTest";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -455,7 +589,6 @@
 		523641FF1A14D17900BBBC27 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ChallengeTest.app/ChallengeTest";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -490,6 +623,7 @@
 				523641FC1A14D17900BBBC27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		523641FD1A14D17900BBBC27 /* Build configuration list for PBXNativeTarget "ChallengeTestTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +632,7 @@
 				523641FF1A14D17900BBBC27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
